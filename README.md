@@ -14,6 +14,11 @@
 2. git add
 3. git commit
 4. git diff
+```
+git log --graph --pretty=oneline --abbrev-commit
+git diff commit1-id commit2-id
+git diff commit1-id commit2-id >> conflict.log
+```
 5. git checkout -- file
 6. git reset HEAD file
 7. git rm file
@@ -21,9 +26,19 @@
    = git branch dev
      git checkout dev
 9. git branch
+
+> 坚定不移的时光分割线
+>> 再次坚定而磐石无转移地分割
+
+*******
+
 10. git merge dev
 11. git log
+--老大我错了--
 12. git log --graph --pretty=oneline --abbrev-commit
+｀｀｀
+git log --graph --pretty=oneline --abbrev-commit
+｀｀｀
 13. git branch -d feature1
 14. git stash
 15. git stash list
