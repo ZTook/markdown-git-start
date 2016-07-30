@@ -57,17 +57,17 @@ git log --graph --pretty=oneline --abbrev-commit
 24. git tag v0.9 6224937
 25. git show tag-name
 26. git server-self:
-    |First header|Second Header                                     |Third Header|
-    |:----:|:----------------------------------------------------------------|:--|
-    |行为   |命令                                                              |说明|
-    |安装git|sudo apt-get install git                                         |   |
-    |创建用户|sudo adduser git                                                 |   |
-    |创建证书|then，创建证书登录：收集所有需要登录的用户的公钥，就是他们自己的id_rsa.pub文件|   |
-    |导入证书|把所有公钥导入到/home/git/.ssh/authorized_keys文件里，一行一个          |   |
-    |创建仓库|sudo git init --bare sample.git                                  |   |
-    |赋予权限|sudo chown -R git:git sample.git                                 |   |
-    |下载仓库|git clone git@server:/srv/sample.git                             |   |
+|行为   |命令                                                              |说明|
+|:----:|:----------------------------------------------------------------|:--|
+|安装git|sudo apt-get install git                                         |   |
+|创建用户|sudo adduser git                                                 |   |
+|创建证书|then，创建证书登录：收集所有需要登录的用户的公钥，就是他们自己的id_rsa.pub文件|   |
+|导入证书|把所有公钥导入到/home/git/.ssh/authorized_keys文件里，一行一个          |   |
+|创建仓库|sudo git init --bare sample.git                                  |   |
+|赋予权限|sudo chown -R git:git sample.git                                 |   |
+|下载仓库|git clone git@server:/srv/sample.git                             |   |
 *******
 ## Git之远程操作
 27. git remote add origin git@github.com:ZTook/markdown_test.git
 28. git push master
+29. git fetch
