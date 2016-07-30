@@ -33,7 +33,7 @@ git diff commit1-id commit2-id >> conflict.log
 *******
 
 10. git merge dev
-11. git log
+11. git log / git reflog
 --老大我错了--
 12. git log --graph --pretty=oneline --abbrev-commit
 ｀｀｀
