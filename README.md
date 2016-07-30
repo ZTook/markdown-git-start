@@ -1,4 +1,4 @@
-# Git学习启示录 ＃
+# Git学习启示录
 *Copy自廖雪峰的Web*
 
 **by ZTook<ztook@outlook.com>**
@@ -9,7 +9,7 @@
 [疯狂的推酷](http://www.tuicool.com  "疯狂的推酷")
 [001]: http://www.xxx.com  "廖雪峰同志的内心世界"
 
-## Git之整装出发 ##
+## Git之整装出发
 1. git init
 2. git add
 3. git commit
@@ -34,7 +34,7 @@ git diff commit1-id commit2-id >> conflict.log
 
 10. git merge dev
 11. git log / git reflog
---老大我错了--
+~~老大我错了~~
 12. git log --graph --pretty=oneline --abbrev-commit
 ｀｀｀
 git log --graph --pretty=oneline --abbrev-commit
@@ -55,10 +55,12 @@ git log --graph --pretty=oneline --abbrev-commit
 24. git tag v0.9 6224937
 25. git show tag-name
 26. git server-self:
-      sudo apt-get install git
-      sudo adduser git
-      then，创建证书登录：收集所有需要登录的用户的公钥，就是他们自己的id_rsa.pub文件，
-      把所有公钥导入到/home/git/.ssh/authorized_keys文件里，一行一个。
-      sudo git init --bare sample.git
-      sudo chown -R git:git sample.git
-      git clone git@server:/srv/sample.git
+    |行为   |命令                                                              |说明|
+    |:----:|:----------------------------------------------------------------|:--|
+    |安装git|sudo apt-get install git                                         |   |
+    |创建用户|sudo adduser git                                                 |   |
+    |创建证书|then，创建证书登录：收集所有需要登录的用户的公钥，就是他们自己的id_rsa.pub文件|   |
+    |导入证书|把所有公钥导入到/home/git/.ssh/authorized_keys文件里，一行一个          |   |
+    |创建仓库|sudo git init --bare sample.git                                  |   |
+    |赋予权限|sudo chown -R git:git sample.git                                 |   |
+    |下载仓库|git clone git@server:/srv/sample.git                             |   |
