@@ -57,6 +57,7 @@ git log --graph --pretty=oneline --abbrev-commit
 24. git tag v0.9 6224937
 25. git show tag-name
 26. git server-self:
+
 |行为   |命令                                                              |说明|
 |:----:|:----------------------------------------------------------------|:--|
 |安装git|sudo apt-get install git                                         |   |
@@ -66,6 +67,7 @@ git log --graph --pretty=oneline --abbrev-commit
 |创建仓库|sudo git init --bare sample.git                                  |   |
 |赋予权限|sudo chown -R git:git sample.git                                 |   |
 |下载仓库|git clone git@server:/srv/sample.git                             |   |
+
 *******
 ## Git之远程操作
 27. git remote add origin git@github.com:ZTook/markdown_test.git
