@@ -14,11 +14,11 @@
 2. git add
 3. git commit
 4. git diff
-```
-git log --graph --pretty=oneline --abbrev-commit
-git diff commit1-id commit2-id
-git diff commit1-id commit2-id >> conflict.log
-```
+    ```
+    git log --graph --pretty=oneline --abbrev-commit
+    git diff commit1-id commit2-id
+    git diff commit1-id commit2-id >> conflict.log
+    ```
 5. git checkout -- file
 6. git reset HEAD file
 7. git rm file
@@ -27,15 +27,15 @@ git diff commit1-id commit2-id >> conflict.log
      git checkout dev
 9. git branch
 
-> 坚定不移的时光分割线
->> 再次坚定而磐石无转移地分割
+  > 坚定不移的时光分割线
+    >> 再次坚定而磐石无转移地分割
 
 *******
 ## Git之合并操作
 10. git merge dev
 11. git log / git reflog  
 
-~~老大我错了~~  
+    ~~老大我错了~~  
 
 12. git log --graph --pretty=oneline --abbrev-commit
 ｀｀｀
